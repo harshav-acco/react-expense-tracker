@@ -1,0 +1,33 @@
+form {
+    padding: 1rem;
+}
+.new-expenses__controls {
+    display: flex;
+    justify-content: space-between;
+}
+.new-expenses__control input {
+    background: purple;
+    border: 1px solid white;
+    border-radius: 12px;
+    height: 26px;
+    color: white;
+}
+.new-expenses__control label {
+    color: white;
+    font-weight: 800;
+    margin: 0.2rem;
+}
+.new-expenses__actions {
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+}
+.new-expenses__actions button {
+    margin: 1rem;
+    align-self: center;
+    background: purple;
+    color: white;
+    border-radius: 12px;
+    height: 38px;
+    border: 2px solid white;
+}

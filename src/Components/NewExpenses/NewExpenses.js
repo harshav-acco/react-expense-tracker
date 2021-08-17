@@ -8,7 +8,7 @@ import Card from "../UI/Card";
 const NewExpenses = props => {
 
     return (
-        <Card className="Expenses-Container">
+        <Card className="Expenses-Containers">
             <NewExpensesForm updateExpensesData={props.updateData} />
         </Card>
     )
