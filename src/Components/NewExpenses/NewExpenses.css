@@ -1,0 +1,9 @@
+.Expenses-Containers button {
+    margin: 1rem;
+    align-self: center;
+    background: purple;
+    color: white;
+    border-radius: 12px;
+    height: 38px;
+    border: 2px solid white;
+}
